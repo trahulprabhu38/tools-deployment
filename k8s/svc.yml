@@ -4,6 +4,8 @@ metadata:
   labels:
     app: tools-svc
   name: tools-svc
+  namespace: personal-deployments
+
 spec:
   ports:
   - port: 3000
