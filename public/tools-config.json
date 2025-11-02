@@ -1,0 +1,56 @@
+{
+  "portal": {
+    "name": "T Rahul Prabhu DevOps Portal",
+    "description": "Centralized dashboard for internal DevOps tools"
+  },
+  "tools": [
+    {
+      "id": 1,
+      "name": "Grafana",
+      "url": "https://grafana.trahulprabhu.work",
+      "description": "Monitoring dashboards and visualization",
+      "category": "monitoring",
+      "icon": "📊"
+    },
+    {
+      "id": 2,
+      "name": "Jenkins",
+      "url": "https://jenkins.trahulprabhu.work",
+      "description": "CI/CD pipelines and automation",
+      "category": "cicd",
+      "icon": "⚙️"
+    },
+    {
+      "id": 3,
+      "name": "ArgoCD",
+      "url": "https://argocd.trahulprabhu.work",
+      "description": "GitOps continuous deployment",
+      "category": "deployment",
+      "icon": "🚀"
+    },
+    {
+      "id": 4,
+      "name": "Prometheus",
+      "url": "https://prometheus.trahulprabhu.work",
+      "description": "Metrics collection and alerting",
+      "category": "monitoring",
+      "icon": "🔔"
+    },
+    {
+      "id": 5,
+      "name": "SonarQube",
+      "url": "https://sonarqube.trahulprabhu.work",
+      "description": "Code quality and security analysis",
+      "category": "quality",
+      "icon": "✓"
+    },
+    {
+      "id": 6,
+      "name": "ELK Stack",
+      "url": "https://elk.trahulprabhu.work",
+      "description": "Centralized logging and analysis",
+      "category": "logging",
+      "icon": "📝"
+    }
+  ]
+}

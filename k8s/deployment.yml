@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: tools-deploy
+  name: tools-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tools-deploy
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: tools-deploy
+    spec:
+      containers:
+      - image: trahulprabhu38/tools:v1.0
+        name: tools
+        ports:
+        - containerPort: 3000
+        resources: {}
+status: {}
